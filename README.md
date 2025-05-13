@@ -1,277 +1,87 @@
-# DEXPER - Expense Tracking & Budget Management System
-
 <div align="center">
-  <img src="static/images/logo-transparent-svg.svg" alt="DEXPER Logo" width="200"/>
-  
-  [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://php.net)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-  [![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/RajaMahanty/dexper)
-  [![Security](https://img.shields.io/badge/Security-A%2B-brightgreen.svg)](https://github.com/RajaMahanty/dexper)
+  <h1 style="color:rgb(169, 169, 169); border-bottom: 2px solid #3498db; padding-bottom: 10px;">Expense Management System</h1>
 </div>
 
-## 📊 Project Statistics
+## Project Overview
 
-<div align="center">
-
-```mermaid
-pie title Technology Distribution
-    "PHP" : 66.3
-    "JavaScript" : 26.7
-    "CSS" : 7.0
-```
-
-```mermaid
-graph LR
-    A[User Interface] --> B[Authentication]
-    B --> C[Expense Tracking]
-    C --> D[Budget Management]
-    D --> E[Analytics]
-    E --> F[Reports]
-```
-
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
+  <p style="color: #2d3748;">A comprehensive expense and budget management system built with PHP. This application helps users track their expenses, manage budgets, and maintain financial records efficiently.</p>
 </div>
 
-## 📈 Key Metrics
+## 🚀 Features
 
-<div align="center">
+<div style="display: flex; gap: 5px; margin: 20px 0;">
+  <div style="flex: 1; width: 33.33%; background-color: #ffffff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h3 style="color: #1a365d;">Expense Tracking</h3>
+    <ul style="list-style-type: none; padding-left: 0; color: #2d3748;">
+      <li>📊 Record and monitor daily expenses</li>
+      <li>📈 Track spending patterns and trends</li>
+      <li>📑 Generate expense reports</li>
+    </ul>
+  </div>
 
-|      Metric       | Value |   Status   |
-| :---------------: | :---: | :--------: |
-|  🚀 Performance   |  95%  | ⭐⭐⭐⭐⭐ |
-|    🔒 Security    |  A+   | ⭐⭐⭐⭐⭐ |
-| 📱 Responsiveness | 100%  | ⭐⭐⭐⭐⭐ |
-|  🛠️ Code Quality  |  92%  |  ⭐⭐⭐⭐  |
+  <div style="flex: 1; width: 33.33%; background-color: #ffffff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h3 style="color: #1a365d;">Budget Management</h3>
+    <ul style="list-style-type: none; padding-left: 0; color: #2d3748;">
+      <li>💰 Set and track budgets</li>
+      <li>📊 Monitor budget vs actual spending</li>
+      <li>🔔 Receive budget alerts</li>
+    </ul>
+  </div>
 
+  <div style="flex: 1; width: 33.33%; background-color: #ffffff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <h3 style="color: #1a365d;">User Management</h3>
+    <ul style="list-style-type: none; padding-left: 0; color: #2d3748;">
+      <li>🔐 Secure authentication</li>
+      <li>👥 Role-based access control</li>
+      <li>📝 User activity tracking</li>
+    </ul>
+  </div>
 </div>
-
-## ✨ Features
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🔐 Authentication & Security
-
-- Secure Login System
-- Password Hashing
-- Session Management
-- User Profile Management
-- Secure Password Recovery
-
-</td>
-<td width="50%">
-
-### 💰 Expense Management
-
-- Real-time Updates
-- Category Management
-- Transaction History
-- Receipt Upload
-- Multi-currency Support
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📈 Budget Control
-
-- Budget Planning
-- Expense Limits
-- Overspending Alerts
-- Budget Categories
-- Monthly/Yearly Planning
-
-</td>
-<td width="50%">
-
-### 📊 Analytics & Reports
-
-- Visual Reports
-- Spending Patterns
-- Trend Analysis
-- Export Reports
-- Custom Dashboards
-
-</td>
-</tr>
-</table>
-
-</div>
-
-## ��️ Technology Stack
-
-| Technology   | Purpose                      |
-| ------------ | ---------------------------- |
-| PHP          | Backend Development          |
-| MySQL        | Database Management          |
-| HTML5/CSS3   | Frontend Structure & Styling |
-| JavaScript   | Client-side Interactivity    |
-| Font Awesome | Icon Library                 |
-| Bootstrap    | UI Components                |
-
-## 📦 Installation
-
-<div align="center">
-
-```mermaid
-graph TD
-    A[Clone Repository] --> B[Setup Database]
-    B --> C[Configure Application]
-    C --> D[Start Server]
-    D --> E[Access Application]
-```
-
-</div>
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/RajaMahanty/dexper.git
-```
-
-2. Set up the database:
-
-- Import the database schema from `Database File/`
-- Configure database connection in `connection.php`
-
-3. Configure the application:
-
-- Update database credentials in `connection.php`
-- Ensure PHP version 7.4 or higher is installed
-
-4. Start the application:
-
-- Place the project in your web server directory
-- Access through your web browser
-
-## 🚀 Usage
-
-<div align="center">
-
-```mermaid
-journey
-    title User Journey
-    section Authentication
-        Login: 5: User
-        Register: 3: New User
-    section Dashboard
-        View Summary: 5: User
-        Quick Actions: 4: User
-    section Management
-        Add Expense: 5: User
-        Set Budget: 4: User
-        View Reports: 4: User
-```
-
-</div>
-
-1. **Login/Register**
-
-   - New users can create an account
-   - Existing users can log in with credentials
-
-2. **Dashboard**
-
-   - View expense summaries
-   - Monitor budget status
-   - Access quick actions
-
-3. **Expense Management**
-
-   - Add new expenses
-   - Categorize transactions
-   - View expense history
-
-4. **Budget Planning**
-   - Set budget limits
-   - Track spending against budgets
-   - Receive alerts for overspending
 
 ## 📁 Project Structure
 
-```mermaid
-graph TD
-    A[DEXPER] --> B[static]
-    A --> C[templates]
-    A --> D[Database File]
-    A --> E[Core Files]
-    B --> B1[css]
-    B --> B2[js]
-    B --> B3[images]
-    C --> C1[Dashboard]
-    C --> C2[Sign-up]
-    E --> E1[index.php]
-    E --> E2[expense.php]
-    E --> E3[budget.php]
-    E --> E4[user.php]
-    E --> E5[cat.php]
-    E --> E6[ajaxfile.php]
-```
-
-## 🔒 Security Features
-
-<div align="center">
-
-```mermaid
-pie title Security Implementation
-    "Password Hashing" : 30
-    "Input Validation" : 25
-    "Session Management" : 20
-    "SQL Injection Prevention" : 15
-    "XSS Protection" : 10
-```
-
+<div style="background-color: #2c3e50; padding: 20px; border-radius: 5px; margin: 20px 0;">
+  <pre style="color: #ecf0f1; margin: 0;">
+├── index.php          # Main entry point
+├── expense.php        # Expense management
+├── budget.php         # Budget management
+├── user.php           # User management
+├── cat.php            # Category management
+├── base.php           # Base template
+├── init.php           # Initialization
+├── connection.php     # Database connection
+├── ajaxfile.php       # AJAX handlers
+├── templates/         # Template files
+├── static/           # Static assets
+└── Database File/    # Database related files
+  </pre>
 </div>
 
-- Password hashing
-- Input validation
-- Session management
-- SQL injection prevention
-- XSS protection
+## 🛠️ Technical Stack
 
-## 🤝 Contributing
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[Fork] --> B[Branch]
-    B --> C[Commit]
-    C --> D[Push]
-    D --> E[Pull Request]
-```
-
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
+  <ul style="list-style-type: none; padding-left: 0; color: #2d3748;">
+    <li style="margin: 10px 0;">💻 <strong>Backend:</strong> PHP</li>
+    <li style="margin: 10px 0;">🗄️ <strong>Database:</strong> MySQL</li>
+    <li style="margin: 10px 0;">🎨 <strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+  </ul>
 </div>
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🔧 Setup Instructions
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+<div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
+  <ol style="margin: 0; padding-left: 20px; color: #2d3748;">
+    <li style="margin: 10px 0;">Clone the repository</li>
+    <li style="margin: 10px 0;">Import the database schema from the Database File directory</li>
+    <li style="margin: 10px 0;">Configure database connection in connection.php</li>
+    <li style="margin: 10px 0;">Start your local PHP server</li>
+    <li style="margin: 10px 0;">Access the application through your web browser</li>
+  </ol>
+</div>
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- [Raja Mahanty](https://github.com/RajaMahanty) - Initial work
-
-## 🙏 Acknowledgments
-
-- Font Awesome for icons
-- Bootstrap for UI components
-- All contributors who have helped shape this project
-
----
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️-red.svg" alt="Made with love"/>
-  <br/>
-  <strong>DEXPER - Your Financial Companion</strong>
+<div style="text-align: center; margin-top: 30px; padding: 20px; background-color: #f8f9fa; border-radius: 5px;">
+  <p style="color: #2d3748; margin: 0;">This project is licensed under the MIT License - see the LICENSE file for details</p>
 </div>
