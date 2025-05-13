@@ -49,37 +49,11 @@ graph LR
 <div align="center">
 
 ```mermaid
-graph TB
-    subgraph Core Features
-        A[DEXPER] --> B[Authentication]
-        A --> C[Expense Tracking]
-        A --> D[Budget Management]
-        A --> E[Analytics]
-    end
-
-    subgraph Authentication
-        B --> B1[Secure Login]
-        B --> B2[Password Hashing]
-        B --> B3[Session Management]
-    end
-
-    subgraph Expense Tracking
-        C --> C1[Real-time Updates]
-        C --> C2[Category Management]
-        C --> C3[Transaction History]
-    end
-
-    subgraph Budget Management
-        D --> D1[Budget Planning]
-        D --> D2[Expense Limits]
-        D --> D3[Overspending Alerts]
-    end
-
-    subgraph Analytics
-        E --> E1[Visual Reports]
-        E --> E2[Spending Patterns]
-        E --> E3[Trend Analysis]
-    end
+pie title Feature Distribution
+    "Authentication & Security" : 25
+    "Expense Management" : 30
+    "Budget Control" : 25
+    "Analytics & Reports" : 20
 ```
 
 </div>
@@ -88,7 +62,7 @@ graph TB
 <tr>
 <td width="50%">
 
-### 🔐 Authentication
+### 🔐 Authentication & Security
 
 - Secure Login System
 - Password Hashing
@@ -99,7 +73,7 @@ graph TB
 </td>
 <td width="50%">
 
-### 💰 Expense Tracking
+### 💰 Expense Management
 
 - Real-time Updates
 - Category Management
@@ -112,7 +86,7 @@ graph TB
 <tr>
 <td width="50%">
 
-### 📈 Budget Management
+### 📈 Budget Control
 
 - Budget Planning
 - Expense Limits
@@ -123,7 +97,7 @@ graph TB
 </td>
 <td width="50%">
 
-### 📊 Analytics
+### 📊 Analytics & Reports
 
 - Visual Reports
 - Spending Patterns
@@ -135,7 +109,7 @@ graph TB
 </tr>
 </table>
 
-## 🛠️ Technology Stack
+## ��️ Technology Stack
 
 | Technology   | Purpose                      |
 | ------------ | ---------------------------- |
