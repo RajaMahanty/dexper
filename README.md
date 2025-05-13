@@ -48,16 +48,6 @@ graph LR
 
 <div align="center">
 
-```mermaid
-pie title Feature Distribution
-    "Authentication & Security" : 25
-    "Expense Management" : 30
-    "Budget Control" : 25
-    "Analytics & Reports" : 20
-```
-
-</div>
-
 <table>
 <tr>
 <td width="50%">
@@ -108,6 +98,8 @@ pie title Feature Distribution
 </td>
 </tr>
 </table>
+
+</div>
 
 ## ��️ Technology Stack
 
