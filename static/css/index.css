@@ -1,0 +1,255 @@
+@font-face {
+    font-family: Neuropolitical;
+    src: url("../fonts/neuropolitical\ rg.otf");
+}
+
+body {
+    background-image: linear-gradient(to top, #eeeeee, #ffffff);
+    /* background-color: #F6F6F6; */
+}
+
+.top-heading {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    max-width: 600px;
+    width: 100%;
+    padding-right: 10px;
+    /* background-color: red; */
+}
+
+.top-heading h1 {
+    font-size: 50px;
+    max-width: 100%;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Neuropolitical", sans-serif;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 10vw;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75vw;
+    /* box-shadow: 0px 0px 8.3px rgba(0, 0, 0, 0.08),
+    0px 0px 12.6px rgba(0, 0, 0, 0.088), 0px 0px 13.8px rgba(0, 0, 0, 0.093),
+    0px 0px 12.8px rgba(0, 0, 0, 0.094), 0px 0px 11.1px rgba(0, 0, 0, 0.08),
+    0px 0px 10.6px rgba(0, 0, 0, 0.013), 0px 0px 13.8px rgba(0, 0, 0, -0.001),
+    0px 0px 24.4px rgba(0, 0, 0, -0.005), 0px 0px 46.7px rgba(0, 0, 0, -0.005),
+    0px 0px 87px rgba(0, 0, 0, -0.003); */
+    margin-top: 25px;
+}
+
+.group {
+    padding-top: 140px;
+}
+
+.group input {
+    max-width: 300px;
+    padding: 5px 5px 5px 40px;
+    margin: 0 0 30px 0;
+    bottom: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+
+.form-controller small {
+    display: none;
+}
+
+.form-controller.mistake small {
+    visibility: visible;
+    color: red;
+    display: inline-block;
+    margin-bottom: 15px !important;
+    font-family: "Source Sans Pro";
+}
+
+.form-controller.mistake input {
+    margin-bottom: 0;
+}
+
+.form-controller.successful small {
+    display: none;
+}
+
+.group i {
+    color: rgba(255, 0, 0, 0.54);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 5px;
+}
+
+span {
+    width: 100%;
+}
+
+span img {
+    width: 100%;
+    margin-top: 3.6px;
+    margin-left: -0.55px;
+}
+
+/* button:hover {
+  cursor: pointer;
+} */
+
+a:hover {
+    cursor: pointer;
+}
+
+::placeholder {
+    font-family: "Source Sans Pro";
+    color: rgba(0, 0, 0, 0.43);
+    font-weight: thin;
+    font-size: 15px;
+}
+
+.new-account {
+    padding: 20px 0;
+}
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    outline: 0;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: rgb(107, 185, 19);
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.image-slider {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.slider-image {
+    display: none;
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-slider {
+        display: none;
+    }
+
+    .slider-image {
+        display: none;
+    }
+
+    .form-controller i {
+        display: none;
+    }
+
+    body {
+        background-image: linear-gradient(to top, #eeeeee, #ffffff);
+        height: 100vh;
+    }
+
+    .top-heading {
+        top: 2%;
+        left: 5%;
+        max-width: 90%;
+        padding-right: 5px;
+    }
+
+    .top-heading h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .container {
+        margin: 0 5vw;
+        height: auto;
+    }
+
+    .form-controller {
+        width: 100%;
+    }
+
+    .form-controller input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1rem;
+    }
+}
