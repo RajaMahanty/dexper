@@ -5,8 +5,8 @@
   
   [![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://php.net)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-  [![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/yourusername/dexper)
-  [![Security](https://img.shields.io/badge/Security-A%2B-brightgreen.svg)](https://github.com/yourusername/dexper)
+  [![Status](https://img.shields.io/badge/Status-Active-success.svg)](https://github.com/RajaMahanty/dexper)
+  [![Security](https://img.shields.io/badge/Security-A%2B-brightgreen.svg)](https://github.com/RajaMahanty/dexper)
 </div>
 
 ## 📊 Project Statistics
@@ -15,10 +15,9 @@
 
 ```mermaid
 pie title Technology Distribution
-    "PHP Backend" : 40
-    "Database" : 20
-    "Frontend" : 25
-    "Security" : 15
+    "PHP" : 66.3
+    "JavaScript" : 26.7
+    "CSS" : 7.0
 ```
 
 ```mermaid
@@ -107,7 +106,7 @@ graph TD
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dexper.git
+git clone https://github.com/RajaMahanty/dexper.git
 ```
 
 2. Set up the database:
@@ -168,7 +167,7 @@ journey
    - Track spending against budgets
    - Receive alerts for overspending
 
-## �� Project Structure
+## 📁 Project Structure
 
 ```mermaid
 graph TD
@@ -184,6 +183,9 @@ graph TD
     E --> E1[index.php]
     E --> E2[expense.php]
     E --> E3[budget.php]
+    E --> E4[user.php]
+    E --> E5[cat.php]
+    E --> E6[ajaxfile.php]
 ```
 
 ## 🔒 Security Features
@@ -235,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- [Raja Mahanty](https://github.com/RajaMahanty) - Initial work
 
 ## 🙏 Acknowledgments
 
