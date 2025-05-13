@@ -49,34 +49,91 @@ graph LR
 <div align="center">
 
 ```mermaid
-mindmap
-  root((DEXPER))
-    Authentication
-      Secure Login
-      Password Hashing
-      Session Management
-    Expense Tracking
-      Real-time Updates
-      Category Management
-      Transaction History
-    Budget Management
-      Budget Planning
-      Expense Limits
-      Alerts
-    Analytics
-      Visual Reports
-      Spending Patterns
-      Trend Analysis
+graph TB
+    subgraph Core Features
+        A[DEXPER] --> B[Authentication]
+        A --> C[Expense Tracking]
+        A --> D[Budget Management]
+        A --> E[Analytics]
+    end
+
+    subgraph Authentication
+        B --> B1[Secure Login]
+        B --> B2[Password Hashing]
+        B --> B3[Session Management]
+    end
+
+    subgraph Expense Tracking
+        C --> C1[Real-time Updates]
+        C --> C2[Category Management]
+        C --> C3[Transaction History]
+    end
+
+    subgraph Budget Management
+        D --> D1[Budget Planning]
+        D --> D2[Expense Limits]
+        D --> D3[Overspending Alerts]
+    end
+
+    subgraph Analytics
+        E --> E1[Visual Reports]
+        E --> E2[Spending Patterns]
+        E --> E3[Trend Analysis]
+    end
 ```
 
 </div>
 
-- 🔐 Secure user authentication system
-- 💰 Expense tracking and categorization
-- 📈 Budget management and monitoring
-- 📊 Visual analytics and reports
-- 📱 Responsive design for all devices
-- 🔄 Real-time data updates
+<table>
+<tr>
+<td width="50%">
+
+### 🔐 Authentication
+
+- Secure Login System
+- Password Hashing
+- Session Management
+- User Profile Management
+- Secure Password Recovery
+
+</td>
+<td width="50%">
+
+### 💰 Expense Tracking
+
+- Real-time Updates
+- Category Management
+- Transaction History
+- Receipt Upload
+- Multi-currency Support
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📈 Budget Management
+
+- Budget Planning
+- Expense Limits
+- Overspending Alerts
+- Budget Categories
+- Monthly/Yearly Planning
+
+</td>
+<td width="50%">
+
+### 📊 Analytics
+
+- Visual Reports
+- Spending Patterns
+- Trend Analysis
+- Export Reports
+- Custom Dashboards
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ Technology Stack
 
